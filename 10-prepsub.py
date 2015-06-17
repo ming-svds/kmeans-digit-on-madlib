@@ -29,7 +29,7 @@ for digit in m:
     if m[digit][guess] > curmax:
       curmax = m[digit][guess]
       curguess = guess
-  cm[digit] = curguess
+  cm[curguess] = digit 
 print cm 
 
 # now prepare to write out submission file
